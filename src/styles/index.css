@@ -1,0 +1,43 @@
+:root{
+  --primary-color: 'orange';
+  --background-color: 'lightgray';
+}
+
+
+html, body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  height: 60px;
+  background: black;
+}
+
+.navbar .nav{
+  padding: 0 10em;
+  background-color: white;
+  box-shadow: 1px 1px 4px 1px rgb(170, 170, 170);
+}
+
+.menu-header{
+  display: flex;
+  align-items: center;
+}
+
+
+.page{
+  min-height: 100vh;
+  padding-top: 60px;
+}
+

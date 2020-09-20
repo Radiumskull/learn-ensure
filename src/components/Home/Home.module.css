@@ -1,0 +1,23 @@
+.imageGridChild{
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.detailComponent{
+    min-height: 400px;
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .headerText{
+        margin-top: 20%;
+    }
+}
